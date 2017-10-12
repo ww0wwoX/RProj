@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{6a18bb37-ff9d-4c7a-a931-f008f5c17d76}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -58,11 +58,11 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Install" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Install\001_CreateDb.sql" />
+    <Folder Include="SP" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Install\002_InitTabelsV1.sql" />
+    <None Include="Install\001_CreateDb.sql" />
+    <None Include="SP\001_CreateUser.sql" />
   </ItemGroup>
 </Project>
