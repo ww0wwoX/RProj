@@ -1,2 +1,5 @@
 /RProject/firignore.txt
 .*suo
+/Debug
+Debug
+.vs
