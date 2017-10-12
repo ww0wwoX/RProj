@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RProject.CommonModels", "RP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RProject.Security", "RProject.Security\RProject.Security.csproj", "{DC23A8C9-F7DB-4C82-9C11-217EE30CF723}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{6953573A-5472-4560-9459-6BE080DBBBB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RProject.WebApi", "RProject.WebApi\RProject.WebApi.csproj", "{AF9C6074-4D22-4EBF-9514-08C265EBA551}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{DC23A8C9-F7DB-4C82-9C11-217EE30CF723}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC23A8C9-F7DB-4C82-9C11-217EE30CF723}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC23A8C9-F7DB-4C82-9C11-217EE30CF723}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF9C6074-4D22-4EBF-9514-08C265EBA551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF9C6074-4D22-4EBF-9514-08C265EBA551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF9C6074-4D22-4EBF-9514-08C265EBA551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF9C6074-4D22-4EBF-9514-08C265EBA551}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6A18BB37-FF9D-4C7A-A931-F008F5C17D76} = {3BFAA486-3C25-480B-B997-1F1589E095CF}
 		{7B45F626-FA38-4B9D-8173-E210126E1197} = {F67602F9-BD74-41B1-BFFF-C0CD5A229463}
+		{AF9C6074-4D22-4EBF-9514-08C265EBA551} = {6953573A-5472-4560-9459-6BE080DBBBB1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B50DD659-CEC5-48B2-BED6-572E595BD37C}
