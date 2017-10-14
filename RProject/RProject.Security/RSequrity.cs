@@ -30,7 +30,7 @@ namespace RProject.Security
 			var pbkdf2 = new Rfc2898DeriveBytes(password, salt, HASH_ITERATIONS);
 			byte[] hash = pbkdf2.GetBytes(HASH_LENGHT);
 
-			for (int i = 0; i < HASH_LENGHT; i++)
+			for (int i = SALT_LENGHT; i < HASH_LENGHT; i++)
 			{
 				if (hashBytes[i + SALT_LENGHT] != hash[i])
 				{
