@@ -5,3 +5,6 @@ Debug
 .vs
 bin
 packages
+
+/RProject/RProject.Db/RProject.Db.jfm
+/RProject/RProject.Db/RProject.Db.dbmdl
