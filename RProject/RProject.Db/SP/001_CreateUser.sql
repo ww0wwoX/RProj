@@ -2,7 +2,7 @@
 	@login NVARCHAR(50),
 	@firstName NVARCHAR(32),
 	@lastName NVARCHAR(32),
-	@hpword NVARCHAR(128),
+	@hpword NVARCHAR(80),
 	@roles INT = 1
 AS
 BEGIN

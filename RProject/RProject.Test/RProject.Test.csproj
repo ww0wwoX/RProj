@@ -48,5 +48,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RProject.CommonModels\RProject.CommonModels.csproj">
+      <Project>{7b45f626-fa38-4b9d-8173-e210126e1197}</Project>
+      <Name>RProject.CommonModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RProject.Security\RProject.Security.csproj">
+      <Project>{dc23a8c9-f7db-4c82-9c11-217ee30cf723}</Project>
+      <Name>RProject.Security</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
