@@ -33,7 +33,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -52,6 +54,10 @@
     <ProjectReference Include="..\RProject.CommonModels\RProject.CommonModels.csproj">
       <Project>{7b45f626-fa38-4b9d-8173-e210126e1197}</Project>
       <Name>RProject.CommonModels</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RProject.DataHelper\RProject.DataHelper.csproj">
+      <Project>{39accdc9-622e-4a08-b4c5-dee8a1579750}</Project>
+      <Name>RProject.DataHelper</Name>
     </ProjectReference>
     <ProjectReference Include="..\RProject.Security\RProject.Security.csproj">
       <Project>{dc23a8c9-f7db-4c82-9c11-217ee30cf723}</Project>
